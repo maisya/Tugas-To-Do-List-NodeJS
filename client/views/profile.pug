@@ -1,0 +1,31 @@
+extends layout
+
+block content 
+	.main.container.clearfix
+		.row
+			.col-md-8.col-md-offset-2
+				center
+					h1.display-4 Daily Activity
+					div.form-group 
+						label Task:
+						input#task.form-control(type='text' placeholder='What To Do')
+					div.form-group 		
+						label  Date:
+						input#date.form-control(type='text' placeholder="Date")
+					button#add.btn.btn-primary Add
+					p
+					div.text-light.bg-black
+						h3.display-6.p-5#addLists
+						
+
+					//- if currentUser
+					//- 	button#logout LOGOUT
+					//- else
+					//- 	button LOGIN
+
+
+
+					script(src='/javascripts/addlist.js')
+					script(src='/javascripts/showactivity.js')
+					script(src='/javascripts/logout.js')
+	

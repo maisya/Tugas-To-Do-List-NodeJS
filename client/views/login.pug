@@ -1,0 +1,18 @@
+extends layout
+
+block content 
+  .main.container
+    .row
+      .col-md-6.col-md-offset-3
+        h1.display-4.m-b-2 Log In
+        div.form-group
+          label Username:
+          input#username.form-control(type='text' placeholder='Username')
+        div.form-group
+          label Password:
+          input#password.form-control(type='text' placeholder='Password')
+        button#submit.btn.btn-primary(type='submit') LOGIN
+
+
+
+          script(src='/javascripts/checkuser.js')
