@@ -8,15 +8,18 @@ Tugas Kelompok
 * port yang digunakan untuk _User_ atau _Client_ yaitu http://127.0.0.1:3001
 
 * Berikut adalah tampilan awal atau halaman index
+  <img width=100% src="index.PNG">
   ![alt text](C:\Users\WIN 10\Pictures\gambar\index.PNG "Index")
 
 * Sebelum menjalankan aplikasi ini user harus terlebih dahulu `Sign Up` di form yang telah tersedia.
 
 * Setelah mengklik `Sign Up` maka user akan diminta untuk mengisi form sebagai berikut:
+  <img width=100% src="signup.PNG">
   ![alt text](C:\Users\WIN 10\Pictures\gambar\index.PNG "Index")
 
 
 * Setelah `Sign Up` user akan di redirect ke halaman `Log In` dan user diminta kembali untuk mengisi form seperti berikut:
+  <img width=100% src="login.PNG">
   ![alt text](C:\Users\WIN 10\Pictures\gambar\index.PNG "Index")
 
 * Pada halaman `Log In` tersebut aplikasi akan memanggil database username dan password menggunakan JQuery-Ajax, lalu meresponnya dengan melakukan redirect ke halaman Profile. Berikut block-code JQuery-Ajax yang digunakan untuk meneruskan ke halaman Profile :
