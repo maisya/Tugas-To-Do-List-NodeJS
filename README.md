@@ -14,12 +14,12 @@ Tugas Kelompok
 * Sebelum menjalankan aplikasi ini user harus terlebih dahulu `Sign Up` di form yang telah tersedia.
 
 * Setelah mengklik `Sign Up` maka user akan diminta untuk mengisi form sebagai berikut:
-  <img width=100% src="signup.PNG">
+  <img width=100% src="Sign Up.PNG">
   ![alt text](C:\Users\WIN 10\Pictures\gambar\index.PNG "Index")
 
 
 * Setelah `Sign Up` user akan di redirect ke halaman `Log In` dan user diminta kembali untuk mengisi form seperti berikut:
-  <img width=100% src="login.PNG">
+  <img width=100% src="Log In.PNG">
   ![alt text](C:\Users\WIN 10\Pictures\gambar\index.PNG "Index")
 
 * Pada halaman `Log In` tersebut aplikasi akan memanggil database username dan password menggunakan JQuery-Ajax, lalu meresponnya dengan melakukan redirect ke halaman Profile. Berikut block-code JQuery-Ajax yang digunakan untuk meneruskan ke halaman Profile :
@@ -43,14 +43,17 @@ Tugas Kelompok
 
 
 * Berikut adalah tampilah halaman Profile
+  <img width=100% src="Profile.PNG">
   ![alt text](C:\Users\WIN 10\Pictures\gambar\index.PNG "Index")
 
 
 * User dapat menginput To-Do-List sesuai yang diinginkan dengan menuliskan di *Task* dan *Date* yang disediakan
+  <img width=100% src="Profile.PNG">
   ![alt text](C:\Users\WIN 10\Pictures\gambar\index.PNG "Index")
 
 
 * To-Do-List yang telah di inputkan akan di tampilkan kembali dihalaman tersebut
+  <img width=100% src="daftar todolist.PNG">
   ![alt text](C:\Users\WIN 10\Pictures\gambar\index.PNG "Index")
   
  * Jika _User_ telah selesai makan _user_ dapat keluar dari aplikasi dengan mengklik tombol `Logout` di pojok kanan atas.
